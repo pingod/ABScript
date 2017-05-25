@@ -1,7 +1,7 @@
-#[MLSBS](http://git.oschina.net/MickeyZZC/MLSBS "MLSBS")
+#[ABScript](https://github.com/pingod/ABScript "ABScript")
 ---
-###[MLSBS](http://git.oschina.net/MickeyZZC/MLSBS "MLSBS") is the abbreviation of "My linux's bash script"!
-**[MLSBS](http://git.oschina.net/MickeyZZC/MLSBS "MLSBS")** 是“My linux's bash script”的缩写 。（经过在Centos6.5 和Ubuntu12.04下测试通过。）  
+###[ABScript](https://github.com/pingod/ABScript "ABScript") is the abbreviation of "All Bash script"!
+**[ABScript](https://github.com/pingod/ABScript "ABScript")** 是“All Bash script”的缩写 。（经过在Centos6.5 和Ubuntu12.04下测试通过。）  
 
 ---
 **运行方式：**  
@@ -13,13 +13,13 @@
 
 ---
 * **版本信息**：   
-> [\MLSBS\doc\VERSION.md](http://git.oschina.net/MickeyZZC/MLSBS/blob/master/doc/VERSION.md)
+> [\ABScript\doc\VERSION.md](https://github.com/pingod/ABScript/blob/master/doc/VERSION.md)
 
 * **项目帮助**：   
-> [\MLSBS\doc\HELP.md](http://git.oschina.net/MickeyZZC/MLSBS/blob/master/doc/HELP.md)
+> [\ABScript\doc\HELP.md](https://github.com/pingod/ABScript/blob/master/doc/HELP.md)
 
 * **二次开发教程**：   
-> [\MLSBS\doc\DEV.md](http://git.oschina.net/MickeyZZC/MLSBS/blob/master/doc/DEV.md)  
+> [\ABScript\doc\DEV.md](https://github.com/pingod/ABScript/blob/master/doc/DEV.md)  
 
 ---
 ##功能项:
@@ -54,7 +54,7 @@
 
 **目录结构：**
 
-mlsbs/  
+ABScript/  
 ├── bashScript #独立使用的bash脚本    
 ├── Template #Bash脚本模板  
 ├── function #功能函数  
