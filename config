@@ -1,0 +1,28 @@
+#! Encoding UTF-8
+#配置参数
+InstallPath="/usr/local"
+
+LibPath="$ScriptPath/mylib"
+FunctionPath="$ScriptPath/function"
+TemplatePath="$ScriptPath/Template"
+MyCronBashPath="$InstallPath/mybash"
+MyBashLogPath="$LogPath/mybash"
+Python2Path="$ScriptPath/py2script"
+DownloadTmp="/tmp"
+#日志
+LogPath="/var/log"
+InfoLog=$LogPath/mlsbs_err$(date +%Y%m%d).log
+ErrLog=$LogPath/mlsbs_info$(date +%Y%m%d).log
+#check system parameter about cpu's core ,ram ,other
+#
+#收集系统的一些基础参数给其他函数使用
+#
+SysName=""
+SysCount=""
+FileMax=$(cat /proc/sys/fs/file-max)
+OSlimit=$(ulimit -n)
+egrep -i "centos" /etc/issue && SysName='centos'
+egrep -i "debian" /etc/issue && SysName='debian'
+egrep -i "ubuntu" /etc/issue && SysName='ubuntu'
+SysVer=$(uname -r|cut -d. -f1-2)
+SysBit='32' && [ $(getconf WORD_BIT) == '32' ] && [ $(getconf LONG_BIT) == '64' ] && SysBit='64'
